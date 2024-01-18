@@ -51,5 +51,16 @@ mvn clean verify
 
 > **NOTA**:
 
-> * El proyecto esta configurado para ejecutarse con maven o con gradle pero este documento solo describe la ejecución en maven
+> * El proyecto está configurado para ejecutarse con maven o con gradle pero este documento solo describe la ejecución en maven
+
+> * Por defecto está configurado para ejecutarse headless, para cambiar esta configuración se debe modificar la siguiente propiedad en el archivo `serenity.conf`:
+
+```json
+headless.mode = true
+```
+a
+
+```json
+headless.mode = false
+```
 
