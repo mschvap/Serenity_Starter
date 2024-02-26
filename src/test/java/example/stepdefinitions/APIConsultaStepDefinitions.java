@@ -50,10 +50,12 @@ public class APIConsultaStepDefinitions {
                 .jsonPath()
                 .getObject("data", Usuario.class);
 
+        Ensure.enableSoftAssertions();
         OnStage.theActorInTheSpotlight().attemptsTo(
-                Ensure.that(unUsuario.getFirstName()).isEqualTo(nombre),
+                Ensure.that(unUsuario.getFirstName()).isEqualTo("Juan"),
                 Ensure.that(unUsuario.getEmail()).isEqualTo(correo)
         );
+        Ensure.reportSoftAssertions();
     }
 
 }
