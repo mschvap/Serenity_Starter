@@ -56,15 +56,14 @@ mvn clean verify
 
 > [!TIP]
 > * Por defecto está configurado para ejecutarse headless, para cambiar esta configuración se debe modificar la siguiente propiedad en el archivo `serenity.conf`:
-
-```json
-headless.mode = true
-```
-a
-
-```json
-headless.mode = false
-```
+>```json
+>headless.mode = true
+>```
+>a
+>
+>```json
+>headless.mode = false
+>```
 
 ## Lista de Contenidos
 
