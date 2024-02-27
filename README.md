@@ -8,9 +8,10 @@ Para más información recurrir a la página web de serenity: [https://serenity-
 
 También se puede acceder al repositorio de serenity-dojo para consultar distintos ejemplos: [https://github.com/serenity-dojo](https://github.com/serenity-dojo))
 
-
+> [!IMPORTANT]
+>
 > **PRE-REQUISITOS**:
-
+>
 > * Para ejecutar el proyecto se recomienda mínimo las siguientes versiones:
 >   * IntelliJ Community Edition 2021
 >   * Java JDK 11+
