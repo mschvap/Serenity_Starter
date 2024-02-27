@@ -64,3 +64,14 @@ a
 headless.mode = false
 ```
 
+## Lista de Contenidos
+
+> * Casos de prueba web
+> * Casos de prueba Apis
+> * Patron Screenplay (Task, Question, Action, UserInterface)
+> * Cucumber y Gherkin
+> * Múltiples casos de prueba
+> * Estructuras de datos (List, Collection, Map, DataTable)
+> * Assertions
+> * Selectores estáticos (Target)
+> * Selectores dinámicos
