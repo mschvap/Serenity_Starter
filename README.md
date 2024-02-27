@@ -46,7 +46,7 @@ src
 
 ## Ejecución de los test
 
-```json
+```gherkin
 mvn clean verify
 ```
 
@@ -57,12 +57,12 @@ mvn clean verify
 
 > [!TIP]
 > * Por defecto está configurado para ejecutarse headless, para cambiar esta configuración se debe modificar la siguiente propiedad en el archivo `serenity.conf`:
->```json
+>```gherkin
 >headless.mode = true
 >```
->a
+> a
 >
->```json
+>```gherkin
 >headless.mode = false
 >```
 
