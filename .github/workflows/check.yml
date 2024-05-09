@@ -21,3 +21,9 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B verify --file pom.xml
+
+    - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: serenity-reports
+          path: target/site/serenity/**
