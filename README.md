@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/mschvap/Serenity_Starter/actions/workflows/check.yml/badge.svg)](https://github.com/mschvap/Serenity_Starter/actions/workflows/check.yml)
+
 # Primeros pasos con Serenity y Cucumber
 
 Este proyecto fue creado para ser utilizado como témplate en pruebas automatizadas utilizando la librería de Serenity con Cucumber. 
