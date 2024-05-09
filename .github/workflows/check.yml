@@ -23,7 +23,7 @@ jobs:
       run: mvn -B verify --file pom.xml
 
     - name: Upload artifact
-        uses: actions/upload-artifact@v1
-        with:
+      uses: actions/upload-artifact@v3
+      with:
           name: serenity-reports
           path: target/site/serenity/**
