@@ -28,6 +28,6 @@ jobs:
       if: always()
       with:
           name: serenity-reports
-          path: Reportes/target/site/serenity/**
+          path: target/site/serenity/**
           if-no-files-found: error
           retention-days: 5
